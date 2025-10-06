@@ -1,1 +1,10 @@
 # MASTP2-2
+
+
+The **Chef Christoffel’s Food App** was designed and developed using **React Native with TypeScript** to provide a simple yet functional system for managing a restaurant’s menu. The application consists of three main screens: **Home**, **Add Menu**, and **Filter**, which are all linked together through a **Bottom Tab Navigator** to allow smooth navigation. The **Home Screen** displays all the dishes that have been added by the chef, showing each dish’s name, description, course type, and price. It also calculates and displays the total number of items as well as the average price of all dishes, giving a clear overview of the menu. The **Add Menu Screen** enables the chef to input new dishes through text fields and dropdown menus where details such as the dish name, description, price, and course type (Starters, Mains, Desserts, or Beverages) are entered. Once saved, the new item is automatically added to the main list and stored in the application’s state. The **Filter Screen** allows users or guests to view dishes by selecting a specific course category from a dropdown menu, displaying only the relevant items based on that selection.
+
+The app also includes a **preloaded dataset** containing sample menu items across all four categories—Starters, Mains, Desserts, and Beverages—to demonstrate its full functionality upon launch. Each dish is displayed using a reusable **MenuCard component**, which organizes the menu layout and presentation for consistency across screens. The overall structure follows a modular coding approach, separating files for components, data, and screen logic to enhance readability and maintainability. The use of **React Hooks** such as `useState` ensures efficient state management, allowing dynamic updates whenever new menu items are added or filtered. In summary, this code demonstrates strong technical implementation in user interface design, state management, modular component use, and navigation — resulting in a functional, interactive, and user-friendly restaurant menu management app.
+
+
+
+
